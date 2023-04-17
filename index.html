@@ -8,33 +8,28 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-        <link rel="stylesheet" href="styles/">
+        <link rel="stylesheet" href="styles/main.css">
 
         <title>Proyecto final</title>
     </head>
+
     <body>
         <header>
             <div class="div_content">
                 <div class="row div_content_logo_menu">
-                    <div class="logo col-xs-12 col_md-6">
+                    <div class="div_logo col-xs-12 col_md-6">
                         <a href="#"><img src="/assets/logo.png" alt=""></a>
-                    </div>
-
-                    <div class="menu col-xs-12 col-md-6">
-                        <a href="#">Inicio</a>
-                        <a href="#">Precio</a>
-                        <a href="#">Productos</a>
                     </div>
                 </div>
 
-                <div class="row div_text">
+                <div class="row div_anons">
                     <div class="col-md-12">
-                        <h2 class="Firstline"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
-                        <h2 class="Secondline"> Lorem ipsum dolor sit</h2>
-
+                        <p class="Firstline"> Servicio para el hosteo de servidores dedicados a Minecraft</>
+                        <p class="Secondline"> Rapido, Robusto y Completo</p>
+        
                         <div class="ContentBtn">
-                            <a href="#">Caracteristicas</a>
-                            <a href="#">Comprar ahora</a>
+                            <button onclick="toCaracter()">Caracteristicas</button>
+                            <button onclick="toPlanes()">Planes</button>
                         </div>
                     </div>
                 </div>
@@ -46,27 +41,27 @@
                 <div class="div_container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="title">Caracteristicas</h3>
+                            <h3 class="title" id="Caracter">Caracteristicas: </h3>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-sm-4 div_caracter">
-                            <p>icono</p>
-                            <h4 class="firstline">Lorem ipsum</h4>
-                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fuga sapiente explicabo laborum, obcaecati consectetur officiis, hic voluptatibus illum aut harum modi. Molestiae, aut deleniti. Doloribus architecto quo in provident!</p>
+                            <h1><i class="bi bi-cpu-fill icon-head" style="color: tomato;"></i></h1>
+                            <p class="firstline red">Poder de procesamiento</p>
+                            <p class="paragraph">Contamos con servidores de alto rendimiento capaces de soportar hasta los eventos mas exigentes.</p>
                         </div>
 
                         <div class="col-sm-4 div_caracter">
-                            <p>icono</p>
-                            <h4 class="firstline">Lorem ipsum</h4>
-                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fuga sapiente explicabo laborum, obcaecati consectetur officiis, hic voluptatibus illum aut harum modi. Molestiae, aut deleniti. Doloribus architecto quo in provident!</p>
+                            <h1><i class="bi bi-shield-fill-check icon-head" style="color:yellowgreen;"></i></h1>
+                            <p class="firstline green">Seguridad al maximo</p>
+                            <p class="paragraph">Ofrecemos y disponemos de metodos de alta seguridad para que tus datos y la de tus amigos, no sean expuesto</p>
                         </div>
 
                         <div class="col-sm-4 div_caracter">
-                            <p>icono</p>
-                            <h4 class="firstline">Lorem ipsum</h4>
-                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fuga sapiente explicabo laborum, obcaecati consectetur officiis, hic voluptatibus illum aut harum modi. Molestiae, aut deleniti. Doloribus architecto quo in provident!</p>
+                            <h1><i class="bi bi-database-fill icon-head" style="color:darkcyan;"></i></h1>
+                            <p class="firstline blue">Guardado en simple o robusto</p>
+                            <p class="paragraph">Podras almacenar en tu servidor con distintas bases de datos tanto SQL como NoSQL</p>
                         </div>
                     </div>
                 </div>
@@ -77,24 +72,35 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="row div_photo">
-                                <div class="col-xs-4 thumb">
-                                    <img src="https://laptopsreview360.files.wordpress.com/2017/10/a5.jpg" alt="" width="500">
+                                <div class="col-xs-4 div_thumb">
+                                    <img src="https://www.linuxbalear.com/wp-content/uploads/2019/04/servers2.jpg" alt="">
                                 </div>
 
-                                <div class="col-xs-8 text">
-                                    <h2 class="title blue">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
+                                <div class="col-xs-8 div_text">
+                                    <h2 class="title red">Lorem ipsum dolor sit.</h2>
                                     <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolore, quos excepturi culpa commodi velit cum provident assumenda officia.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="row div_photo">
+                                <div class="col-xs-8 div_text">
+                                    <h2 class="title green">Lorem ipsum dolor sit.</h2>
+                                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, doloremque culpa quas fuga ullam modi reprehenderit voluptatum? Assumenda, officiis non? </p>
+                                </div>
+
+                                <div class="col-xs-4 div_thumb">
+                                    <img src="https://laptopsreview360.files.wordpress.com/2017/10/a5.jpg" alt="">
                                 </div>
                             </div>
 
                             <div class="row div_photo">
-                                <div class="col-xs-8 text">
-                                    <h2 class="title orange right">Lorem ipsum dolor sit.</h2>
-                                    <p class="paragraph right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolore.</p>
+                                <div class="col-xs-4 div_thumb">
+                                    <img src="https://laptopsreview360.files.wordpress.com/2017/10/a5.jpg" alt="">
                                 </div>
-
-                                <div class="col-xs-4 thumb">
-                                    <img src="https://laptopsreview360.files.wordpress.com/2017/10/a5.jpg" alt="" width="500">
+        
+                                <div class="col-xs-8 div_text">
+                                    <h2 class="title blue">Lorem ipsum dolor sit.</h2>
+                                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolore, quos excepturi culpa commodi velit cum provident assumenda officia.</p>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +112,7 @@
                 <div class="div_container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="title">Redes Sociales</h3>
+                            <h3 class="title">Redes Sociales:</h3>
                         </div>
 
                         <div class="row">
@@ -132,35 +138,36 @@
 
                     <div class="row">
                         <div class="col-md 12">
-                            <h3 class="title">Precios</h3>
+                            <h3 class="title" id="Plans">Precios</h3>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="price col-sm-4">
-                            <div class="plan green">
+                            <div class="plan red">
                                 <p class="name"> Basico </p>
-                                <p class="price">$9</p>
+                                <p class="price">$9/mes</p>
 
                                 <ul class="caracter">
-                                    <li>1 cuenta</li>
-                                    <li>10GB de espacio libre</li>
-                                    <li>Dominio personal</li>
+                                    <li>10-20 Jugadores Max.</li>
+                                    <li>10GB almacenamiento</li>
+                                    <li>Acceso a Data Packs Premium</li>
                                 </ul>
 
                                 <a href="#" class="btn_buy">Contratar ahora</a>
+                                <p class="note"> *Ideal para juego casual</p>
                             </div>
                         </div>
 
                         <div class="price col-sm-4">
-                            <div class="plan active">
+                            <div class="plan green">
                                 <p class="name"> Avanzado </p>
-                                <p class="price">$10</p>
+                                <p class="price">$50/mes</p>
 
                                 <ul class="caracter">
-                                    <li>5 cuenta</li>
-                                    <li>30GB de espacio libre</li>
-                                    <li>Dominios Ilimitados</li>
+                                    <li>20-50 Jugadores Max.</li>
+                                    <li>30GB de almacenamiento</li>
+                                    <li>Con dispunibilidad a Mods y Pluguins</li>
                                 </ul>
 
                                 <a href="#" class="btn_buy">Contratar ahora</a>
@@ -168,14 +175,14 @@
                         </div>
 
                         <div class="price col-sm-4">
-                            <div class="plan orange">
+                            <div class="plan blue">
                                 <p class="name"> VIP </p>
-                                <p class="price">$99/mes</p>
+                                <p class="price">$1,000/mes</p>
 
                                 <ul class="caracter">
-                                    <li>Cuentas Ilimitadas</li>
-                                    <li>1TB de espacio libre</li>
-                                    <li>Dominios Ilimitados</li>
+                                    <li>Jugadore Ilimitadas</li>
+                                    <li>1TB de almacenamiento</li>
+                                    <li>Sin restricciones</li>
                                 </ul>
 
                                 <a href="#" class="btn_buy">Contratar ahora</a>
@@ -186,7 +193,73 @@
                 </div>
             </section>
 
-            <section class="sect_reveiws"></section>
+            <section class="sect_reveiws">
+                <div class="div_container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="title">Lo que nuestros clientes dicen:</h3>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 div_client">
+                            <div class="div_photo">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" alt="">
+                            </div>
+                            
+                            <div class="div_review">
+                                    <p class="text">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quod voluptatibus quis velit officiis, dolorum tempore nulla eligendi corporis cumque reprehenderit et esse, molestias magni. Eos quaerat magnam quasi?"</p>
+                                    <p class="name">Alan Mathinson Turing</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12 div_client right">
+                            <div class="div_photo">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Bundesarchiv_Bild_183-R0116-504%2C_Max_Planck.jpg" alt="">
+                            </div>
+                            
+                            <div class="div_review">
+                                <p class="text">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quod voluptatibus quis velit officiis, dolorum tempore nulla eligendi corporis cumque reprehenderit et esse, molestias magni. Eos quaerat magnam quasi?"</p>
+                                <p class="name">Max Karl Ernst Ludwig Planck</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
+
+        <footer>
+            <div class="div_direccion">
+                <div class="div_container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="title">Contacto:</p>
+                            <p class="street"> Tulum Mz. 49 Lt. 19 Lomas altas de Padierna Sur </p>
+                            <p class="email"> Correo: Domiisac2004@gmail.com</p>
+                        </div>
+
+                        <div class="col-md-4 logo">
+                            <img src="/assets/logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div_social">
+                <div class="div_container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="https://www.facebook.com/domingoisac.vacanieves"><i class="bi bi-facebook"></></i></a>
+                            <a href="https://twitter.com/Dvn_Dev4815"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.youtube.com/channel/UCavW0qo8yW_OzM5rKDOXmyg"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <button class="btn_ToTop" onclick="toBegin()"><i class="bi bi-arrow-bar-up"></i></button>
+
+        <script src="/scripts/main.js"></script>
     </body>
 </html>

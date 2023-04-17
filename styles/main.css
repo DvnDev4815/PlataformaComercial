@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+header {
+  background: url("https://images7.alphacoders.com/556/556718.jpg");
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
+}
+header .div_content {
+  background: rgba(0, 0, 0, 0.5);
+}
+header .div_content .div_content_logo_menu {
+  border-bottom: 2px solid #fff;
+  padding: 15px 0;
+}
+header .div_content .div_content_logo_menu .div_logo {
+  width: 45%;
+}
+header .div_content .div_content_logo_menu .div_logo a {
+  margin-left: 50px;
+  display: block;
+}
+header .div_content .div_content_logo_menu .div_logo a img {
+  vertical-align: top;
+  width: 60px;
+}
+header .div_content .div_content_logo_menu .div_menu {
+  text-align: right;
+  line-height: 50px;
+}
+header .div_content .div_content_logo_menu .div_menu a {
+  color: #fff;
+  margin-left: 60px;
+  font-size: 18px;
+}
+header .div_content .div_anons {
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+  margin: 10px 0;
+}
+header .div_content .div_anons .Firstline {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+header .div_content .div_anons .Secondline {
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+header .div_content .div_anons .ContentBtn button {
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 50;
+  padding: 12px 0;
+  width: 235px;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+header .div_content .div_anons .ContentBtn button:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #000;
+  font-weight: 100;
+}
+
+.sect_main .sect_caracter {
+  padding: 60px 0;
+}
+.sect_main .sect_caracter .div_container .title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 50px;
+  color: #fcfff5;
+}
+.sect_main .sect_caracter .div_caracter {
+  text-align: center;
+}
+.sect_main .sect_caracter .div_caracter .icon-head {
+  font-size: 110px;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+.sect_main .sect_caracter .div_caracter .firstline {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.sect_main .sect_caracter .div_caracter .firstline.red {
+  color: tomato;
+}
+.sect_main .sect_caracter .div_caracter .firstline.blue {
+  color: darkcyan;
+}
+.sect_main .sect_caracter .div_caracter .firstline.green {
+  color: yellowgreen;
+}
+.sect_main .sect_caracter .div_caracter .paragraph {
+  font-weight: 10;
+  margin-bottom: 30px;
+  line-height: 18px;
+  font-size: 20px;
+}
+.sect_main .sect_photos {
+  margin-bottom: 70px;
+}
+.sect_main .sect_photos .div_photo {
+  text-align: center;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.sect_main .sect_photos .div_photo .div_thumb {
+  width: 50%;
+}
+.sect_main .sect_photos .div_photo .div_thumb img {
+  border: solid 3px #fff;
+  vertical-align: top;
+  border-radius: 5px;
+  width: 450px;
+}
+.sect_main .sect_photos .div_text {
+  padding: 10px;
+  margin: auto;
+  width: 40%;
+  overflow: hidden;
+}
+.sect_main .sect_photos .div_text .title {
+  margin-bottom: 30px;
+  margin-top: 70px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+}
+.sect_main .sect_photos .div_text .title.red {
+  color: tomato;
+}
+.sect_main .sect_photos .div_text .title.green {
+  color: yellowgreen;
+}
+.sect_main .sect_photos .div_text .title.blue {
+  color: darkcyan;
+}
+.sect_main .sect_photos .div_text .paragraph {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 10;
+}
+.sect_main .sect_photos .div_text .right {
+  text-align: right;
+}
+.sect_main .sect_clients {
+  background: #d1dbbd;
+  padding: 40px;
+}
+.sect_main .sect_clients .title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  color: #000;
+}
+.sect_main .sect_clients .client {
+  text-align: center;
+}
+.sect_main .sect_clients .client a {
+  color: #000;
+  display: block;
+}
+.sect_main .sect_clients .client a i {
+  font-size: 40px;
+}
+.sect_main .sect_prices {
+  background: url("https://images3.alphacoders.com/556/556720.jpg"), #727171;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding: 10px;
+  color: #000;
+}
+.sect_main .sect_prices .div_container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border-radius: 10px;
+}
+.sect_main .sect_prices .div_container .title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 70px;
+  color: #fff;
+}
+.sect_main .sect_prices .div_container .plan {
+  background: #fff;
+  text-align: center;
+  padding: 50px 0;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+.sect_main .sect_prices .div_container .plan .name {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+}
+.sect_main .sect_prices .div_container .plan .price {
+  text-decoration: underline;
+  font-weight: 300;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.sect_main .sect_prices .div_container .plan .caracter {
+  list-style: none;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+.sect_main .sect_prices .div_container .plan .caracter li {
+  font-size: 18px;
+  padding: 15px 0;
+  border-bottom: 1px solid #dedede;
+}
+.sect_main .sect_prices .div_container .plan .btn_buy {
+  font-size: 18px;
+  width: 70%;
+  padding: 15px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid #000;
+  color: #000;
+}
+.sect_main .sect_prices .div_container .plan .note {
+  font-size: 18px;
+  font-weight: 700;
+}
+.sect_main .sect_prices .div_container .plan.red {
+  border: 3px solid tomato;
+  box-shadow: tomato 0px 5px;
+}
+.sect_main .sect_prices .div_container .plan.red .name, .sect_main .sect_prices .div_container .plan.red .price, .sect_main .sect_prices .div_container .plan.red .note {
+  color: tomato;
+}
+.sect_main .sect_prices .div_container .plan.red .btn_buy {
+  color: #fff;
+  background: tomato;
+  border: 2px solid tomato;
+}
+.sect_main .sect_prices .div_container .plan.green {
+  border: 3px solid yellowgreen;
+  box-shadow: yellowgreen 0px 5px;
+}
+.sect_main .sect_prices .div_container .plan.green .name, .sect_main .sect_prices .div_container .plan.green .price, .sect_main .sect_prices .div_container .plan.green .none {
+  color: yellowgreen;
+}
+.sect_main .sect_prices .div_container .plan.green .btn_buy {
+  background: yellowgreen;
+  border: 2px solid yellowgreen;
+  color: #fff;
+}
+.sect_main .sect_prices .div_container .plan.blue {
+  border: 3px solid darkcyan;
+  box-shadow: darkcyan 0px 5px;
+}
+.sect_main .sect_prices .div_container .plan.blue .name, .sect_main .sect_prices .div_container .plan.blue .price, .sect_main .sect_prices .div_container .plan.blue note {
+  color: darkcyan;
+}
+.sect_main .sect_prices .div_container .plan.blue .btn_buy {
+  background: darkcyan;
+  border: 2px solid darkcyan;
+  color: #fff;
+}
+.sect_main .sect_reveiws {
+  padding: 70px;
+}
+.sect_main .sect_reveiws .title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 70px;
+  color: #fff;
+}
+.sect_main .sect_reveiws .div_client {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.sect_main .sect_reveiws .div_client .div_photo {
+  text-align: right;
+  float: left;
+  width: 20%;
+}
+.sect_main .sect_reveiws .div_client .div_photo img {
+  vertical-align: top;
+  border-radius: 100%;
+  max-width: 100px;
+  width: 100%;
+}
+.sect_main .sect_reveiws .div_client .div_review {
+  margin-top: 20px;
+  padding: 0 30px;
+  float: left;
+  width: 80%;
+}
+.sect_main .sect_reveiws .div_client .div_review .text {
+  margin-bottom: 10px;
+  line-height: 28px;
+  font-size: 18px;
+}
+.sect_main .sect_reveiws .div_client .div_review .name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+.sect_main .sect_reveiws .div_client.right .div_photo {
+  text-align: left;
+  float: right;
+}
+.sect_main .sect_reveiws .div_client.right .div_review {
+  text-align: right;
+  float: right;
+}
+
+footer .div_direccion {
+  background: #d1dbbd;
+  padding: 30px 0;
+  color: #000;
+}
+footer .div_direccion .div_container {
+  padding: 10px 20px 10px 100px;
+}
+footer .div_direccion .div_container .title {
+  margin-bottom: 30px;
+  line-height: 32px;
+  font-weight: 700;
+  font-size: 32px;
+}
+footer .div_direccion .div_container .street, footer .div_direccion .div_container .email, footer .div_direccion .div_container .phone {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+footer .div_direccion .div_container .logo img {
+  width: 100px;
+  margin-top: 10px;
+}
+footer .div_social {
+  text-align: center;
+  padding: 20px 0;
+}
+footer .div_social a {
+  padding: 10px;
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  font-size: 22px;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+}
+
+.btn_ToTop {
+  background: tomato;
+  padding: 20px;
+  color: #fff;
+  border-radius: 100px;
+  position: fixed;
+  border: 1px solid #fff;
+  font-size: 22px;
+  right: 20px;
+  bottom: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #193441;
+  font-size: 12px;
+  color: #fcfff5;
+}/*# sourceMappingURL=main.css.map */
